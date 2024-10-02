@@ -1,0 +1,2 @@
+var e=document.querySelector(".logo"),t=new Promise(function(t,n){var o=document.createElement("div");o.textContent="Promise was resolved!",o.classList.add("message"),e.addEventListener("click",function(){t(o)})}),n=new Promise(function(e,t){var n=document.createElement("div");n.textContent="Promise was rejected!",n.classList.add("message","error-message"),setTimeout(function(){t(n)},3e3)});t.then(function(e){document.body.appendChild(e)}),n.catch(function(e){document.body.appendChild(e)});
+//# sourceMappingURL=index.ba8cfda4.js.map
